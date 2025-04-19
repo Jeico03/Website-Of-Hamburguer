@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.section-contact {
+  background-color: #351f17;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact__container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 5%;
+}
+
+.section-contact__form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #2f1b16;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(47, 27, 22, 0.5);
+}
+
+.section-contact__form__title {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #fcaa5b;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.section-contact__form__group {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.section-contact__form__label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #fcaa5b;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-contact__form__input,
+.section-contact__form__textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #2e1a16;
+  background-color: rgba(52, 30, 23, 0.5);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.section-contact__form__input:focus,
+.section-contact__form__textarea:focus {
+  outline: none;
+  border-color: #fcaa5b;
+  box-shadow: 0 0 10px rgba(252, 170, 91, 0.3);
+}
+
+.section-contact__form__textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.section-contact__form__button {
+  background-color: #fcaa5b;
+  color: #2f1b16;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  width: 100%;
+}
+
+.section-contact__form__button:hover {
+  background-color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(47, 27, 22, 0.4);
+}
+
+.section-contact__form__button:active {
+  transform: translateY(0);
+}
+
+.section-contact__form__input::placeholder,
+.section-contact__form__textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+.section__hero {
+  height: 100vh;
+  background-image: url('../Images/fondo___inicio.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.container__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height:90vh;
+  padding: 3.2rem;
+}
+
+
+.container__hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+.container__hero__text__h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 16rem;
+  color: #fff;
+  margin-bottom: -6rem;
+}
+
+.container__hero__text__h2 {
+  font-family: 'Antonio', sans-serif;
+  font-size: 14rem;
+  color: #9a4c09;
+  margin-bottom: 4rem;
+}
+
+.container__hero__text p {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2.8rem;
+  color: #fff;
+  z-index: 3;
+}
+
+.container__hero__image--hamburguer {
+  flex: 1;
+}
+
+.container__hero__image--hamburguer__image {
+  width: 400px;
+}
+
+.container__hero__figure--background {
+  border-radius: 0.5rem 1rem;
+  background-color: #db8e16;
+  padding: 1rem 1.5rem;
+}
